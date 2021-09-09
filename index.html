@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, user-scalabre=0">
+    <title>Cartão de Todos</title>
+    <link rel="stylesheet" type="text/css" href="css/template.css"/>
+    <script type="text/javascript">
+        window.onload = function(){
+            document.querySelector(".menuMobile").addEventListener("click", function(){
+                if(document.querySelector(".menu nav ul").style.display=='flex'){
+                    document.querySelector(".menu nav ul").style.display ='none';
+                } else{
+                    document.querySelector(".menu nav ul").style.display ='flex';
+                }
+            });
+        };
+        </script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href=""><img src="images/logo.svg" class="minhalogo"></a>
+            </div>
+            <div class="menu">
+                <nav>
+                    <div class="menuMobile">
+                        <div class="mm_line"></div>
+                        <div class="mm_line"></div>
+                        <div class="mm_line"></div>
+                    </div>
+                    <ul>
+                        <li class="active"><a href="">home</a></li>
+                        <li><a href="">home</a></li>
+                        <li><a href="">home</a></li>
+                        <li><a href="">home</a></li>
+                        <li><a href="">home</a></li>
+                        <li><a href="">home</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <section id="banner">
+        <div class="container column">            
+            <div class="banner_headline">    </div>
+            <div class="banner_options">
+                <div class="banner1">
+                    <div class="banner_title">Emergência</div>
+                    <div class="banner_desc">Contamos com atendimento 24 horas para casos de emergência em nossas clínicas, entretando em algumas clinicas...</div>
+                    <a href="">Saiba mais</a>
+                </div>
+                <div class="banner2">
+                    <div class="banner_title">Especialidades Médicas</div>
+                    <div class="banner_desc">Contamos com Clínica Médica Familiar, Clínica Médica Masculina e Feminina, Ortorpedia, Cardiologia, Neurologia, entre outras...</div>
+                    <a href="">Saiba mais</a>
+                </div>
+                <div class="banner3">
+                    <div class="banner_title">Horários das Clínicas</div>
+                    <div class="banner_desc3">Segunda a Sexta 08:00 as 17:00</div>
+                    <div class="banner_desc3">Sábado 09:30 as 17:30</div>
+                    <div class="banner_desc3">Emergência 24hrs 7/7 dias</div>
+                
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="geral">
+        <div class="container">
+            <section>
+                <div class="widget">
+                    <div class="widget_title">
+                        <div class="widget_title_text">Últimas Notícias</div>
+                        <div class="widget_title_bar"></div>
+                    </div>
+                    <div class="widget_body flex">
+
+                        <article>
+                            <div class="news_data">
+                                <div class="news_posted_at">01/01/2021</div>
+                                <div class="news_comments">2</div>
+                            </div>
+                            <div class="news_thumbnail">
+                                <img src="./images/doutor.jpg">
+                            </div>
+                            <div class="news_title">
+                                CORAÇÃO
+                            </div>
+                            <div class="news_resume">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam nihil ea voluptatibus hic, obcaecati repudiandae magnam. Similique repudiandae, quae facilis eveniet eaque cum, laudantium optio officia nobis placeat mollitia corporis!
+                            </div>
+                        </article>
+
+                        <article>
+                            <div class="news_data">
+                                <div class="news_posted_at">01/01/2021</div>
+                                <div class="news_comments">2</div>
+                            </div>
+                            <div class="news_thumbnail">
+                                <img src="./images/doutor.jpg">
+                            </div>
+                            <div class="news_title">
+                                PROSTATA
+                            </div>
+                            <div class="news_resume">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam nihil ea voluptatibus hic, obcaecati repudiandae magnam. Similique repudiandae, quae facilis eveniet eaque cum, laudantium optio officia nobis placeat mollitia corporis!
+                            </div>
+                        </article>
+
+                        <article>
+                            <div class="news_data">
+                                <div class="news_posted_at">01/01/2021</div>
+                                <div class="news_comments">2</div>
+                            </div>
+                            <div class="news_thumbnail">
+                                <img src="./images/doutor.jpg">
+                            </div>
+                            <div class="news_title">
+                                DIABETES
+                            </div>
+                            <div class="news_resume">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam nihil ea voluptatibus hic, obcaecati repudiandae magnam. Similique repudiandae, quae facilis eveniet eaque cum, laudantium optio officia nobis placeat mollitia corporis!
+                            </div>
+                        </article>
+
+                        <article>
+                            <div class="news_data">
+                                <div class="news_posted_at">01/01/2021</div>
+                                <div class="news_comments">2</div>
+                            </div>
+                            <div class="news_thumbnail">
+                                <img src="./images/doutor.jpg">
+                            </div>
+                            <div class="news_title">
+                                PELE
+                            </div>
+                            <div class="news_resume">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam nihil ea voluptatibus hic, obcaecati repudiandae magnam. Similique repudiandae, quae facilis eveniet eaque cum, laudantium optio officia nobis placeat mollitia corporis!
+                            </div>
+                        </article>
+
+
+                    </div>
+                </div> 
+
+            </section>
+            <aside>
+                <div class="widget">
+                    <div class="widget_title">
+                        <div class="widget_title_text">Clínicas</div>
+                        <div class="widget_title_bar"></div>
+
+                    </div>
+                    <div class="widget_body">
+                        <div class="square">
+                            <img src="./images/departamentos/logo familia.png">
+                        </div>
+                        <div class="square">
+                            <img src="./images/departamentos/logo familia.png">
+                        </div>
+                        <div class="square">
+                            <img src="./images/departamentos/logo familia.png">
+                        </div>
+                        <div class="square">
+                            <img src="./images/departamentos/logo familia.png">
+                        </div>
+                        <div class="square">
+                            <img src="./images/departamentos/logo familia.png">
+                        </div>
+                        <div class="square">
+                            <img src="./images/departamentos/logo familia.png">
+                        </div>
+                    </div>
+
+                </div>
+                <div class="widget">
+                    <div class="widget_title">
+                        <div class="widget_title_text">Marque sua consulta</div>
+                        <div class="widget_title_bar"></div>
+
+                    </div>
+                    <div class="widget_body">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Perspiciatis, suscipit explicabo.  
+                    </div>
+
+                    <div class="widget_body_appointment_item">
+                        <div class="widget_body_appointment_text">
+                            Telefone: <strong>21 - 2121- 2222</strong>
+                        </div>
+                    </div>
+                    <div class="widget_body_appointment_item">
+                        <div class="widget_body_appointment_text">
+                            E-mail: <a href="mailto:medicenter@mail.com">cartaodetodos@cartao.com.br</a>
+                        </div>
+                    </div>
+                    <div class="widget_body_appointment_item">
+                        <div class="widget_body_appointment_text">
+                            ou <a href="">Preencha o formulário</a> na página de contato!
+                        </div>
+                </div>
+
+            </aside>
+        </div>
+    </section>
+
+    <!--Footer Começo-->
+    <footer>
+        <div class="container flex_column">
+            <div class="banner_footer">
+                <div class="banner1">
+                    <div class="banner_title">Planos</div>
+                    <div class="banner_desc">Aqui temos planos que cabe no seu bolso...</div>
+                </div>
+                <div class="banner2">
+                    <div class="banner_title">Medical Records</div>
+                    <div class="banner_desc">Here in medicenter we have individual</div>
+                </div>
+                <div class="banner3">
+                    <div class="banner_title">Online Bills</div>
+                    <div class="banner_desc">Here in medicenter we have individual</div>
+                </div>
+            </div>
+            <div class="footer_area">
+                <div class="areaitem">
+                    <div class="widget">
+                        <div class="widget_title">
+                            <h1>Medicenter Clinic</h1>
+                            <div class="widget_title_bar"></div>
+                        </div>
+                        <div class="widget_title_body">
+                           <div class="widget_footer_body_content">
+                               <div class="hosp">
+                                    <div class="description">
+                                        <p>Maurius adipiscing mauris fringilla turpis interdum seed pulvinar nisi malesuada.</p>
+                                    </div>
+                                    <div class="data_medicenter">
+                                        <div class="addres">
+                                            <p>Medicenter Clinic</p>
+                                            <p>33 Farlane Street</p>
+                                            <p>Kalior East</p>
+                                            <p>VIC 3033, Australia</p>
+                                        </div>
+                                        <div class="email_phone">
+                                            <p>+123 655 655</p>
+                                            <p>+123 755 755</p>
+                                            <p class="white">medicenter@mail.com</p>
+                                        </div>
+                                    </div>
+                                    <div class="social_media">
+                                        <img src="./images/fff.png" alt="facebook">
+                                        <img src="./images/ttt.png" alt="twitter">
+                                        <img src="./images/ccc.png" alt="agenda">
+                                        <img src="./images/mmm.png" alt="mail">
+                                    </div>
+                               </div>
+                               
+                           </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="areaitem">
+                    <div class="widget">
+                        <div class="widget_title">
+                            <h1>Latest Posts</h1>
+                            <div class="widget_title_bar"></div>
+                        </div>
+                        <div class="widget_title_body">
+                           <div class="widget_footer_body_content">
+                                <div class="latest_post">
+                                    <div class="post">
+                                        <p>Maurius adipiscing mauris fringilla turpis interdum seed pulvinar nisi malesuada.</p>
+                                        <span class="date_post">6 years ago</span>
+                                    </div>
+                                    <div class="post">
+                                        <p>Maurius adipiscing mauris fringilla.</p>
+                                        <span class="date_post">6 years ago</span>
+                                    </div>
+                                    <div class="post">
+                                        <p>Maurius adipiscing mauris fringilla turpis interdum seed pulvinar nisi malesuada.</p>
+                                        <span class="date_post">6 years ago</span>
+                                    </div>
+                                </div>
+                           </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="areaitem">
+                    <div class="widget">
+                        <div class="widget_title">
+                            <h1>Latest Tweets</h1>
+                            <div class="widget_title_bar"></div>
+                        </div>
+                        <div class="widget_title_body">
+                           <div class="widget_footer_body_content">
+                                <div class="footer_news">
+                                    <div class="ft_news">
+                                        <p>We've released new version (v1.2) of our #CleanMate #Cleaning Company #Maid #Gardening #WordPress Theme. Please che... <span>t.co/tYVkhmpb30</span></p>
+                                        <span class="date_post">4 days ago</span>
+                                    </div>
+                                    <div class="ft_news">
+                                        <p>We've released new version (v1.2) of our #CleanMate #Cleaning Company #Maid #Gardening #WordPress Theme. Please che... <span>t.co/tYVkhmpb30</span></p>
+                                        <span class="date_post">4 days ago</span>
+                                    </div>
+                                    <div class="ft_news">
+                                        <p>We've released new version (v1.2) of our #CleanMate #Cleaning Company #Maid #Gardening #WordPress Theme. Please che... <span>t.co/tYVkhmpb30</span></p>
+                                        <span class="date_post">4 days ago</span>
+                                    </div>
+                                </div>
+                           </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer_copy">
+                Copyright - Todos os direitos reservados
+            </div>
+            
+        </div>
+    </footer><!--END FOOTER-->
+    
+</body>
+</html>
